@@ -1,0 +1,37 @@
+{
+	"name": "hrvy/bgtop",
+	"type": "phpbb-extension",
+	"description": "Made by appunlockstoryplay.top",
+	"homepage": "https://appunlockstoryplay.top/",
+	"version": "1.1.2",
+	"time": "2024-01-13",
+    "keywords": [
+        "phpbb",
+        "extension",
+        "bgtop"
+    ],
+	"license": "GPL-2.0",
+	"authors": [
+		{
+			"name": "HarveyWNvm",
+			"homepage": "https://appunlockstoryplay.top/",
+			"email": "harveynomvervevo@gmail.com",
+			"role": "Editor Extension"
+		}
+	],
+	"require": {
+		"php": ">=8.2.14"
+	},
+	"extra": {
+		"display-name": "BGTOP by HarveyWNvm",
+		"soft-require": {
+			"phpbb/phpbb": ">=3.3.11,<4.0.x*@dev"
+		},
+		"version-check": {
+			"host": "www.appunlockstoryplay.top",
+			"directory": "/versions",
+			"filename": "bgtop_version.json",
+			"ssl": true
+		}
+	}
+}
